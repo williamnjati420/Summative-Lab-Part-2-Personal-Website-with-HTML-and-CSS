@@ -1,0 +1,9 @@
+.nav {
+    background-color: gray;
+    height: 100%;
+}
+
+.nav ul {
+    float: right;
+    background-color: bisque;
+}
