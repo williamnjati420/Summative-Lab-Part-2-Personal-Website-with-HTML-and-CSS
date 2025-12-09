@@ -33,13 +33,14 @@ body {
 }
 
 .about-me {
- padding: 0%;
- margin: 0%;
-
+    padding: 0%;
+    margin: 0%;
 }
 
 .about-me h1 {
-
+    display: flex;
+    justify-content: center;
+    color:#B2BEB5;
 }
 
 .skills {
@@ -48,13 +49,26 @@ body {
 
 }
 
-.projects {
+.skills h1 {
+    display: flex;
+    justify-content: center;
+    color:#B2BEB5;
+}
+
+.skills ul {
+    list-style-type: none;
 
 }
 
-.project-content {
+.projects {
+    padding: 0%;
+    margin: 0%;
+}
 
-
+.projects h1 {
+    display: flex;
+    justify-content: center;
+    color:#B2BEB5; 
 }
 
 .project-content-calculator {
@@ -66,8 +80,17 @@ body {
 }
 
 .contact {
-
+    padding: 0%;
+    margin: 0%;
 }
+
+.contact h1 {
+    display: flex;
+    justify-content: center;
+    color:#B2BEB5;    
+}
+
+
 
 
 

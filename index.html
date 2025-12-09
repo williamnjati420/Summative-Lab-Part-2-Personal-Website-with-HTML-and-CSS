@@ -11,17 +11,18 @@
   <body>
 
     <div class="main">
-     
+
     <nav>
         <ul>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Skills</a></li>
-            <li> <a href="">Projects</a></li>
-            <li> <a href="">Contact</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li> <a href="#projects">Projects</a></li>
+            <li> <a href="#contact">Contact</a></li>
+            <li> <a href="https://github.com/williamnjati420">Github</a></li>
         </ul>
     </nav>
 
-    <div class="about-me">
+    <div class="about-me" id="about-me">
     <h1> Abount Me</h1>
     <p>
         Currently learning HTML, CSS, and JavaScript to become a web developer. I enjoy building small projects that help me understand how websites look and work. Each new project teaches me something new and makes me more confident in my skills. <br>
@@ -30,8 +31,8 @@
     </p>
     </div>
 
-    <div class="skills">
-        <h1>Skills</h1>
+    <div class="skills" id="skills">
+    <h1>Skills</h1>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -39,23 +40,31 @@
         </ul>
     </div>
 
-    <div class="projects">
-        <div class="project-calculator">
+    <div class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="project-calculator" id="project-calculator">
             <h2>calculator</h2>
             <img src="calculator.avif" alt="calculator">
         </div>
 
-        <div class="project-adventures">
+        <div class="project-adventures" id="project-adventures">
             <h2>Adventures in Fire Island</h2> <br>
             <img src="adventures-in-fire-island.jpg" alt="adventures-in-fire-island">
         </div>
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contact">
         <h1>Contact</h1>
-        <form action="">Contact</form>
-    </div>
+        <form action="" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required> <br>
 
+            <label for="email">Enter your email</label>
+            <input type="email" name="email" id="email" required> <br>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
     </div>
 
   </body>
